@@ -10,5 +10,5 @@ install:
   - bundle install
 script:
   - gherkin-lint ./features/*.feature
-  - gherkin_lint ./features/*.feature --disable AvoidScripting,TooLongStep,InvalidStepFlow,BackgroundRequiresMultipleScenarios
+  - bundle exec gherkin_lint ./features/*.feature --disable AvoidScripting,TooLongStep,InvalidStepFlow,BackgroundRequiresMultipleScenarios
 
