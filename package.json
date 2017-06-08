@@ -1,0 +1,16 @@
+{
+  "name": "ruby-dredd-cucumber-docker",
+  "version": "0.0.1",
+  "description": "Acceptance testing using ruby and nodejs.",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "lint-gherkin": "gherkin-lint features/"
+  },
+  "devDependencies": {
+    "dredd": "^3.5.0",
+    "gherkin-lint": "^2.0.0"
+  }
+}

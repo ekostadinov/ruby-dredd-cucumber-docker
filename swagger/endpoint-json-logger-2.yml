@@ -1,0 +1,31 @@
+swagger: "2.0"
+info:
+  version: "0.0.0"
+  title: Debugging webhooks BODY
+  license:
+    name: MIT
+host: 127.0.0.1:8000
+basePath: /
+schemes:
+  - http
+consumes:
+  - text/plain
+produces:
+  - text/plain
+paths:
+  /:
+    parameters:
+      - name: body
+        in: body
+        required: true
+        schema:
+          type: object
+          properties:
+            username:
+              type: string
+            password:
+              type: string
+    post:
+      responses:
+        200:
+          description: ""

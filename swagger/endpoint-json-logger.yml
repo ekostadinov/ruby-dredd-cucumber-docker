@@ -1,0 +1,20 @@
+swagger: "2.0"
+info:
+  version: "0.0.0"
+  title: Debugging webhooks
+  license:
+    name: MIT
+host: 127.0.0.1:8000
+basePath: /
+schemes:
+  - http
+consumes:
+  - text/plain
+produces:
+  - text/plain
+paths:
+  /:
+    post:
+      responses:
+        200:
+          description: ""

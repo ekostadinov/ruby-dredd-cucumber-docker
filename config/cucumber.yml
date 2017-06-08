@@ -1,0 +1,4 @@
+# Store and reuse commonly used cucumber command line arguments for a project
+# more details here https://github.com/cucumber/cucumber/wiki/cucumber.yml
+---
+html_report: --format progress --format html --out=reports/cucumber_report.html
