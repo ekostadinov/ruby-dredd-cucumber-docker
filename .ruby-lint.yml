@@ -1,0 +1,6 @@
+---
+directories:
+  - hooks
+
+ignore_paths:
+  - vendor/**/*

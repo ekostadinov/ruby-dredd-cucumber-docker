@@ -1,0 +1,8 @@
+node_modules
+screenshots
+.idea/*
+*.xml
+*.log
+vendor
+*.html
+node_modules
