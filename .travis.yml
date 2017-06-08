@@ -2,6 +2,12 @@ sudo: required
 language: node_js
 node_js:
   - "6.1"
-script:
+ruby:
+  - "2.4.1"
+install:
   - npm install -g -y
+  - bundle install
+script:
   - gherkin-lint ./features/*.feature
+  - gherkin_lint ./features/*.feature --disable AvoidScripting,TooLongStep,InvalidStepFlow,BackgroundRequiresMultipleScenarios
+
