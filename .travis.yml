@@ -1,14 +1,15 @@
 sudo: required
 language: ruby
-node_js:
-  - "6.1"
+#node_js:
+#  - "6.1"
 ruby:
   - "2.4.1"
 install:
   - chruby 2.4.1
-  - npm install -g -y
+  # - npm install -g -y
   - bundle install
 script:
-  - gherkin-lint ./features/*.feature
-  #- bundle exec gherkin_lint ./features/*.feature --disable AvoidScripting,TooLongStep,InvalidStepFlow,BackgroundRequiresMultipleScenarios
-  - bundle exec rubocop 
+  # - gherkin-lint ./features/*.feature
+  - bundle exec gherkin_lint ./features/*.feature --disable AvoidScripting,TooLongStep,InvalidStepFlow,BackgroundRequiresMultipleScenarios
+  - bundle exec rubocop -D
+  - reek ./features/ hooks/
