@@ -5,6 +5,7 @@ node_js:
 ruby:
   - "2.4.1"
 install:
+  - chruby 2.4.1
   - npm install -g -y
   - bundle install
 script:
