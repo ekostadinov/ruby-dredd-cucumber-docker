@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/ekostadinov/ruby-dredd-cucumber-docker.svg?branch=master)](https://travis-ci.org/ekostadinov/ruby-dredd-cucumber-docker)
 
-## Beckend tests
+## HTTP API Beckend tests
 
 This framework is based on [Dredd](https://github.com/apiaryio/dredd) framework via Ruby [hooks](https://dredd.readthedocs.io/en/latest/hooks-ruby/). How-To [guides](https://dredd.readthedocs.io/en/latest/how-to-guides/) and [BDD boilerplate](https://github.com/apiaryio/dredd-hooks-template).
 
