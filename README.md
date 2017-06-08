@@ -1,10 +1,11 @@
-![build status]()
+[![Build Status](https://travis-ci.org/ekostadinov/ruby-dredd-cucumber-docker.svg?branch=master)](https://travis-ci.org/ekostadinov/ruby-dredd-cucumber-docker)
 
 ## Beckend tests
 
 This framework is based on [Dredd](https://github.com/apiaryio/dredd) framework via Ruby [hooks](https://dredd.readthedocs.io/en/latest/hooks-ruby/). How-To [guides](https://dredd.readthedocs.io/en/latest/how-to-guides/) and [BDD boilerplate](https://github.com/apiaryio/dredd-hooks-template).
 
 #### TODO
+- Add Docker loging service container via [AWS free tier](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-free-tier.html)
 - Enable Rake cucumber tasks
 - Add IaC support
 
